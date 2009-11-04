@@ -1,0 +1,203 @@
+/* Eric Meyer's Reset Reloaded *//* http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}/* remember to define focus styles! */:focus {outline: 0;}/* remember to highlight inserts somehow! */ins {text-decoration: none;}del {text-decoration: line-through;}/* tables still need 'cellspacing="0"' in the markup */table {border-collapse: collapse;border-spacing: 0;}
+
+*
+{	
+	font-family: "Lucida Grande", Verdana, Arial;
+	font-size:18px;
+	color:#52513F;	
+}
+
+#container
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,.5);
+	-webkit-perspective: 600;
+}
+
+.site
+{
+	position: absolute;
+	width: 320px;
+	top: 0px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 1s;
+}
+
+.site.flipped
+{
+	-webkit-transform: rotateY(180deg);
+}
+
+.screen
+{
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+}
+
+.home
+{
+	padding-top:40px;
+	width:320px;
+	background-color:#FFF;
+}
+
+.home_content_wrapper
+{
+	width:280px;
+}
+
+.logo
+{
+	width:152px;
+	height:68px;
+}
+
+.hidden
+{
+	text-indent: -1500px;
+}
+
+.tagline
+{
+	background-image:url(/media/img/mobile_tagline.png);
+	width:276px;
+	height:23px;
+	margin-bottom:10px;
+	margin-top:35px;
+}
+
+.center
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.contact_home
+{
+	margin-top:25px;
+}
+
+.contact_button
+{
+	float:left;
+}
+
+.email_button
+{
+	margin-left:16px;
+}
+
+.view_details
+{
+	margin-top:25px;
+	float:right;
+}
+
+.detail
+{
+	background-color:#FFF;
+	-webkit-transform: rotateY(180deg);
+}
+
+
+.header
+{
+	margin-bottom:15px;
+	background-color:#FFF;
+	border:1px solid #990000;
+}
+
+.detail_content_wrapper
+{
+	width:324px;
+	background: #000 url('/media/img/mobile_iphone_background.png') no-repeat;
+}
+
+.logo_details
+{
+	float:left;
+	margin:10px 0px 0px 13px;
+}
+
+.home_button
+{
+	float:right;
+	margin:18px 10px 18px 0px;
+}
+
+.home_button_bottom
+{
+	margin:18px 10px 8px 0px;	
+}
+
+.services
+{
+	clear:both;
+	padding:15px 0px 15px 0px;
+	background:#000;
+}
+
+.copy p
+{
+	color:#FFF;
+	font-size:12px;
+	width:125px;
+	font-family:Helvetica;
+}
+
+.top.copy_block
+{
+ 	margin-top:2px;	
+}
+
+.copy_block
+{
+	float:left;
+	margin-left:15px;
+}
+
+.copy_block br
+{
+	margin:0px;
+	padding:0px;
+}
+.services li
+{
+	color:#FFF;
+	font-size:12px;
+	margin-bottom:10px;
+}
+
+.left_column
+{
+	float:left;
+	margin-left:15px;
+}
+
+.right_column
+{
+	float:right;
+	margin-right:32px;
+}
+
+.copy
+{
+	margin-right:22px;
+}
+
+h2
+{
+	color:#FF0000;
+	font-family:Helvetica;
+	font-weight:bold;
+	font-size:12px;
+	margin-bottom:5px;
+	margin-top:18px;
+}
+
+
+.clear
+{
+	clear:both;
+	content:".";
+}

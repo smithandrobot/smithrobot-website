@@ -1,0 +1,309 @@
+/* Eric Meyer's Reset Reloaded *//* http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}/* remember to define focus styles! */:focus {outline: 0;}/* remember to highlight inserts somehow! */ins {text-decoration: none;}del {text-decoration: line-through;}/* tables still need 'cellspacing="0"' in the markup */table {border-collapse: collapse;border-spacing: 0;}
+
+
+*
+{
+	
+	font-family: "Lucida Grande", Verdana, Arial;
+	color:#52513F;
+	
+}
+
+/**/
+body
+{
+	/*background-image: url(/media/img/home_graphic2.gif);*/
+	background-position: 530px 200px;
+	background-repeat: no-repeat;
+}
+
+#error_base
+{
+	background-image: none;
+	margin:35px;
+}
+
+
+
+#home .content
+{
+	
+	width:100%;
+	margin-left:0px;
+	padding-bottom: 30px;
+	position:relative;
+}
+
+.container
+{
+	width:100%;
+	margin:0px;
+	position:relative;
+}
+
+
+.header 
+{
+	margin-top:60px;
+	margin-bottom:0px;
+	padding-left:60px;
+	width:960px;
+}
+
+.logo
+{
+	float:left;
+}
+
+.twitter
+{
+	min-height: 20px;
+	font-size: 11px;
+	background-repeat: no-repeat;
+	background-image: url(/media/img/global_tweet.gif);
+	background-position: 0px 3px;
+	float:left;
+	margin-left:350px;
+	padding-left:30px;
+	width:300px;
+	color:black;
+	margin-top:15px;
+	line-height: 14px;
+}
+
+.twitter:hover
+{
+
+	background-image: url(/media/img/global_tweet-anim.gif);
+}
+
+.twitter a
+
+{
+	color:#000;
+	text-decoration:none;
+	border-bottom:none;
+}
+
+.twitter a:hover
+
+{
+	color:#ff0000;
+	border-bottom:1px dotted #000;
+}
+
+
+.hidden
+{
+	
+	text-indent: -1500px;
+}
+
+.greeting
+{
+	background-image: url(/media/img/home_tagline.gif);
+	background-repeat: no-repeat;
+	width:400px;
+	height:137px;
+	padding-top: 140px;
+	margin-left:60px;
+}
+
+.greeting p
+{
+	
+	font-size: 16px;
+	width:385px;
+	line-height: 18px;
+}
+
+.left-column
+{
+	width:450px;
+	position:absolute;
+	top:60px;
+	z-index:4;
+}
+
+.right-column
+{
+	width:480px;
+	height:950px;
+	position:absolute;
+	left:470px;
+	z-index:3;
+}
+
+.features
+{
+	margin-left:60px;
+	width:465px;
+}
+
+.features div
+{
+	font-size: 13px;
+	width:184px;
+	height:90px;
+	float:left;
+	margin-right:35px;
+	margin-bottom:35px;
+	padding-top:20px;
+	background-repeat: no-repeat;
+	
+}
+
+.features h3
+{
+	text-indent: -15000px;
+}
+
+.brawn
+{
+	background-image: url(/media/img/home_h2_brawn.gif);
+}
+
+.talent
+{
+	background-image: url(/media/img/home_h2_talent.gif);
+}
+
+.heart
+{
+	background-image: url(/media/img/home_h2_heart.gif);
+}
+
+.focus
+{
+	background-image: url(/media/img/home_h2_focus.gif);
+}
+
+.services
+{
+	
+	width: 331px;
+	background: transparent url(/media/img/line_border_top.png) repeat-x top;
+	padding-top:30px;
+	margin-bottom:30px;
+	margin-left:60px;
+}
+
+.services .inner
+{
+	
+	background: #fff url(/media/img/line_border_bottom.png) repeat-x bottom;
+	padding-bottom:30px;
+	padding-top:1px;
+}
+
+.list
+{
+
+	background: transparent url(/media/img/home_builttowork.gif) no-repeat top left;
+	padding-top:55px;
+}
+
+
+li
+{
+	font-size: 13px;
+	margin-bottom:4px;
+}
+
+.services ul
+{
+	float:left;
+	width:195px;
+	margin-right: 0px;
+}
+
+
+.services .right
+{
+	width:130px;
+}
+
+.footer
+{
+	left:60px;
+	padding-bottom:30px;
+	font-size: 13px;
+	position:absolute;
+	top:1000px;
+}
+
+.footer p
+{
+	margin-bottom: 5px;
+}
+
+a
+{
+	color:#000;
+	text-decoration: none;
+	border-bottom:1px dotted #FF0000;
+}
+
+
+a:hover
+{
+
+	border-bottom:1px dotted #000000;
+}
+
+.banner
+{
+	top: 300px;
+	right: 0px;
+	position:absolute;
+	background-position: 40px 0px;
+	height: 105px;
+	background-image: url(/media/img/home_banner.png);
+	background-repeat: no-repeat;
+	width:253px;
+	font-size: 12px;
+	z-index:5;
+}
+
+.banner p
+{
+	width:150px;
+	margin-top:44px;
+	margin-left:80px;
+	color:#fff;
+}
+
+.banner a
+{
+	text-decoration:underline;
+	color:#fff;
+}
+
+.banner a:hover
+{
+	text-decoration:underline;
+	border:none;
+	color:#000;
+}
+
+.error_container
+{
+	top: 220px;
+	left: 230px;
+	position:absolute;
+	background: #fff url('/media/img/wrench.png') no-repeat top left;
+	padding-left:230px;
+	padding-top:35px;
+}
+
+.error_container p
+{
+	margin-bottom:20px;
+	margin-left:15px;
+	
+}
+
+.clear
+{
+	clear:both;
+}
